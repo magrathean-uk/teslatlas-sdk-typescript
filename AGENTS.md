@@ -1,5 +1,10 @@
 # Teslatlas TypeScript client
 
+> **Frozen on 2026-10-08.** This checkout was imported with its full history into the
+> Hub repository as `hub/sdk-typescript/`, which is now the authoritative copy. Do not edit
+> here; it stays only until the App re-pins Compute and the old GitHub repositories
+> are archived on the owner's push request.
+
 Node.js client for the Hub read API. Follow `../AGENTS.md` and
 `../docs/development/MASTER_PLAN.md`; the plan wins on process, model, scope and commit
 policy. Only the Hub client (`src/hub`) is retained; the rich client, SSE, vehicle
