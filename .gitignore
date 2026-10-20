@@ -6,3 +6,8 @@ playwright-report/
 test-results/
 tests/**/__screenshots__/
 *.tgz
+
+# secrets (clean-development)
+.env
+.env.*
+!.env.example
