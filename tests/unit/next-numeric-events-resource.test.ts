@@ -31,7 +31,7 @@ it.each(["line", "empty-lines"])("records bounded parser allocation: %s", async 
   expect(count).toBe(1);
   expect(length).toBe(kind === "line" ? size : size - 1);
   await writeFile(
-    "/Users/bolyki/dev/documents/reviews/teslatlas-bayesian-2026-10-07/next-round/teslatlas-sdk-typescript/numeric-events-resource-" +
+    "/Users/bolyki/dev/machine/documents/reviews/teslatlas-bayesian-2026-10-07/next-round/teslatlas-sdk-typescript/numeric-events-resource-" +
       (process.env.NUMERIC_EVENTS_PHASE ?? "after") +
       "-" +
       kind +
